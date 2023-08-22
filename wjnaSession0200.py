@@ -45,7 +45,7 @@ versionMessage = __version__
 wjnaGlobalConfig = {"GPSTimeOffset":False, "GPSTimeOffsetValue":datetime.timedelta(seconds=0.0)}
 locations = [
   waObserverLocation("Greenwich",waEarthPosition(51.4934,0,10),"GMT",0,False),
-  waObserverLocation("Basecamp",waEarthPosition(37.715497,-90.680353,336),"CST",-6,True)
+  waObserverLocation("Jefferson College MO",waEarthPosition(38.263896,-90.556094,278),"CST",-6,True)
 ]
 locationSelected = locations[1]
 global session1
