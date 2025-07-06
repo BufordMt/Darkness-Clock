@@ -1,0 +1,70 @@
+[
+    {
+        "name": "CO-RMSS",
+        "description":  "Rocky Mountain Star Stare near Gardner CO",
+        "lat": 37.84360,
+        "lon": -105.19135,
+        "alt": 336,
+        "timezone": "MST",
+        "UTCOffset": -7
+    },
+    {
+        "name": "SC-Columbia",
+        "description":  "Columbia, SC State Museum",
+        "lat": 34.0003993,
+        "lon": -81.0538986,
+        "alt": 30,
+        "timezone": "EST",
+        "UTCOffset": -5
+    },
+    {
+        "name": "MO-Broemmelsiek",
+        "description":  "Broemmelsiek Park St. Charles County MO",
+        "lat": 38.72289,"lon": -90.81481,"alt": 203,
+        "timezone": "CST","UTCOffset": -6
+    },
+    {
+        "name": "MO-Danville01",
+        "description":  "Danville Conservation Area Parking Lot 1",
+        "lat": 38.86749,
+        "lon": -91.51412,
+        "alt": 248,
+        "timezone": "CST",
+        "UTCOffset": -6
+    },
+    {
+        "name": "MO-Jefferson College",
+        "description":  "Jefferson College SLAS Observatory",
+        "lat": 38.263896,
+        "lon": -90.556094,
+        "alt": 278,
+        "timezone": "CST",
+        "UTCOffset": -6
+    },
+    {
+        "name": "MO-Van Buren",
+        "description":  "Big Spring Campground",
+        "lat": 36.953852,
+        "lon": -90.992325,
+        "alt": 222,
+        "timezone": "CST",
+        "UTCOffset": -6
+    },
+    {
+        "name": "MO-Whiteside",
+        "description":  "Whiteside Conservation Area",
+        "lat": 39.18066,
+        "lon": -91.005,
+        "alt": 222,
+        "timezone": "CST",
+        "UTCOffset": -6
+    },
+    {
+        "name": "UK-Greenwich",
+        "lat": 51.4934,
+        "lon": 0.0,
+        "alt": 10,
+        "timezone": "GMT",
+        "UTCOffset": 0
+    }
+]
