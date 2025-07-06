@@ -1,6 +1,6 @@
 #####################################################################################
 ####    wjnGPSReader.py  GLOBAL POSITIONING SYSTEM READER
-####    Version 1, July 24, 2023
+####    Version 1, July 24, 2023 Revised September 8, 2023
 ####    William Neubert
 #####################################################################################
 
@@ -32,8 +32,8 @@ import serial
 
 def wjngStartGPS():
     global gps
-    uart = serial.Serial("/dev/ttyUSB0", baudrate=9600, timeout=10)
-
+    # uart = serial.Serial("/dev/ttyUSB0", baudrate=9600, timeout=10)
+    uart = serial.Serial("/dev/ttyS0", baudrate=9600, timeout=10) # USING THE SPI INTERFACE
     # Create a GPS module instance.
     gps = adafruit_gps.GPS(uart, debug=False)  # Use UART/pyserial
     # gps = adafruit_gps.GPS_GtopI2C(i2c, debug=False)  # Use I2C interface
@@ -61,6 +61,7 @@ def wjngStartGPS():
     # You can also speed up the rate, but don't go too fast or else you can lose
     # data during parsing.  This would be twice a second (2hz, 500ms delay):
     # gps.send_command(b'PMTK220,500')
+    uart.reset_input_buffer()
     return gps
 
 # Main loop runs forever printing the location, etc. every second.
